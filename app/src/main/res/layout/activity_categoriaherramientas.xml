@@ -1,0 +1,616 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Categoriaherramientas">
+
+
+
+        <ScrollView
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+            android:layout_alignParentStart="true"
+            android:layout_alignParentTop="true">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="match_parent"
+                    android:orientation="horizontal">
+
+                    <LinearLayout
+                        android:layout_width="134dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <ImageButton
+                            android:id="@+id/button17"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch1"
+                             />
+
+                        <View
+                            android:id="@+id/divider52"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button18"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch2"
+                            />
+
+                        <View
+                            android:id="@+id/divider54"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button19"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch3"
+                             />
+
+                        <View
+                            android:id="@+id/divider56"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button20"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch4" />
+
+                        <View
+                            android:id="@+id/divider60"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button22"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch6" />
+
+                        <View
+                            android:id="@+id/divider58"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button21"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch7" />
+
+                        <View
+                            android:id="@+id/divider47"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button11"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch8"
+                            android:text="Button" />
+
+                        <View
+                            android:id="@+id/divider30"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button12"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch9"
+                            android:text="Button" />
+
+                        <View
+                            android:id="@+id/divider42"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button13"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch10"
+                            android:text="Button" />
+
+                        <View
+                            android:id="@+id/divider43"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button14"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch11" />
+
+                        <View
+                            android:id="@+id/divider45"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button15"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch12" />
+
+                        <View
+                            android:id="@+id/divider46"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button16"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch13" />
+
+                        <View
+                            android:id="@+id/divider48"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button23"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch14" />
+
+                        <View
+                            android:id="@+id/divider49"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <ImageButton
+                            android:id="@+id/button24"
+                            android:layout_width="match_parent"
+                            android:layout_height="90dp"
+                            android:background="@drawable/ch5" />
+
+                        <View
+                            android:id="@+id/divider51"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                    </LinearLayout>
+
+                    <View
+                        android:id="@+id/divider50"
+                        android:layout_width="10dp"
+                        android:layout_height="match_parent"
+                        android:layout_weight="1"
+                        android:background="?android:attr/listDivider" />
+
+                    <LinearLayout
+                        android:layout_width="252dp"
+                        android:layout_height="match_parent"
+                        android:orientation="vertical">
+
+                        <TextView
+                            android:id="@+id/textView22"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="LLAVES"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView25"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 5.00" />
+
+                        <TextView
+                            android:id="@+id/textView24"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: PROFY" />
+
+                        <View
+                            android:id="@+id/divider53"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView26"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="DESTORNILLADORES"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView27"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 12.00" />
+
+                        <TextView
+                            android:id="@+id/textView28"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: SOL" />
+
+                        <View
+                            android:id="@+id/divider55"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView29"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="CEPILLOS METALICOS"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView30"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 80" />
+
+                        <TextView
+                            android:id="@+id/textView31"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: USA" />
+
+                        <View
+                            android:id="@+id/divider57"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView32"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="CUTTERS"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView33"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 28.50" />
+
+                        <TextView
+                            android:id="@+id/textView34"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: FEEL" />
+
+                        <View
+                            android:id="@+id/divider61"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView44"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="EXTRACTORES"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView45"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 10" />
+
+                        <TextView
+                            android:id="@+id/textView46"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: PROFY" />
+
+                        <View
+                            android:id="@+id/divider59"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView41"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="LIMAS Y ESCOFINAS"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView42"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 6.00" />
+
+                        <TextView
+                            android:id="@+id/textView43"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider62"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView4"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="LLAVES FIJAS"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView7"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 35.00" />
+
+                        <TextView
+                            android:id="@+id/textView8"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider63"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView68"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="TIJERAS INDUSTRIALES"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView69"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 15.00" />
+
+                        <TextView
+                            android:id="@+id/textView70"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider75"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView71"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="SIERRAS DE MANO"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView72"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 35.00" />
+
+                        <TextView
+                            android:id="@+id/textView73"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider76"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView74"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="TENAZAS"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView75"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 13.00" />
+
+                        <TextView
+                            android:id="@+id/textView76"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider77"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView77"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="LLAVES DE VASO"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView78"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 35.00" />
+
+                        <TextView
+                            android:id="@+id/textView79"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider78"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView80"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="PORTAPUNTAS "
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView81"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 18.00" />
+
+                        <TextView
+                            android:id="@+id/textView82"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider79"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView83"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="LLAVES DINAMOMETRICAS"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView84"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 9.00" />
+
+                        <TextView
+                            android:id="@+id/textView85"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider80"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                        <TextView
+                            android:id="@+id/textView86"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:gravity="center"
+                            android:text="LLAVES ESTRELLA}"
+                            android:textColor="@color/black"
+                            android:textSize="16sp"
+                            android:textStyle="bold" />
+
+                        <TextView
+                            android:id="@+id/textView87"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Precio: 7.00" />
+
+                        <TextView
+                            android:id="@+id/textView88"
+                            android:layout_width="match_parent"
+                            android:layout_height="30dp"
+                            android:text="Marca: STANLEY" />
+
+                        <View
+                            android:id="@+id/divider81"
+                            android:layout_width="match_parent"
+                            android:layout_height="35dp"
+                            android:background="#FFEB3B" />
+
+                    </LinearLayout>
+                </LinearLayout>
+            </LinearLayout>
+        </ScrollView>
+
+    </RelativeLayout>

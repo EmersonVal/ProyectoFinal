@@ -1,0 +1,87 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Agregarmarca">
+
+
+    <TextView
+        android:id="@+id/textView15"
+        android:layout_width="265dp"
+        android:layout_height="33dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:gravity="center_vertical|center"
+        android:text="AGREGAR MARCA"
+        android:textColor="@color/black"
+        android:textSize="20sp"
+        android:textStyle="bold|italic" />
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="239dp"
+        android:layout_height="189dp"
+
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentEnd="true"
+        android:layout_marginTop="14dp"
+        android:layout_marginEnd="84dp"
+        android:layout_weight="1"
+        app:srcCompat="@drawable/register" />
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="153dp"
+
+        android:layout_below="@+id/textView15"
+        android:layout_alignParentStart="true"
+        android:layout_marginStart="1dp"
+        android:layout_marginTop="265dp"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="107dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+
+            <TextView
+                android:id="@+id/textView2"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:gravity="center_vertical|center"
+                android:text="MARCA"
+                android:textColor="@android:color/black"
+                android:textSize="15sp"
+                android:textStyle="bold" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="281dp"
+            android:layout_height="120dp"
+            android:orientation="vertical">
+
+            <EditText
+                android:id="@+id/txtmarca"
+                android:layout_width="match_parent"
+                android:layout_height="62dp"
+                android:ems="10"
+                android:inputType="textPersonName" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <Button
+        android:id="@+id/btnagregarmarca"
+        android:layout_width="161dp"
+        android:layout_height="59dp"
+        android:layout_below="@+id/imageView5"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="265dp"
+        android:background="@android:color/holo_red_dark"
+        android:text="AGREGAR"
+        android:textColor="@android:color/white"
+        android:textSize="25sp" />
+</RelativeLayout>

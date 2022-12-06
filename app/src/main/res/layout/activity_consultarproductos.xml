@@ -1,0 +1,170 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultarproductos">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="7dp"
+        android:layout_marginTop="8dp"
+        tools:context=".consultaproducto"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="62dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="295dp"
+
+            android:layout_alignParentStart="true"
+            android:layout_alignParentBottom="true"
+            android:layout_marginStart="0dp"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:orientation="vertical">
+
+                <EditText
+                    android:id="@+id/txtnombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#FFC107"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <EditText
+                    android:id="@+id/txtprecio"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#FFEB3B"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <EditText
+                    android:id="@+id/txtstock"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="#FFC107"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <EditText
+                    android:id="@+id/txtmarca"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="#FFEB3B"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <EditText
+                    android:id="@+id/txtcategoria"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="#FFC107"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnbuscar"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_above="@+id/divider"
+            android:layout_alignParentEnd="true"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="-62dp"
+            android:background="@drawable/buscar" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="213dp"
+            android:layout_height="87dp"
+            android:layout_below="@+id/divider"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="25dp"
+            android:background="@drawable/ventas" />
+
+        <ImageButton
+            android:id="@+id/btnactualizar"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginStart="100dp"
+            android:layout_marginTop="31dp"
+            android:background="@drawable/actualizar" />
+
+        <ImageButton
+            android:id="@+id/btneliminar"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_below="@+id/imageView3"
+            android:layout_marginStart="80dp"
+            android:layout_marginLeft="90dp"
+            android:layout_marginTop="29dp"
+            android:layout_marginEnd="14dp"
+            android:layout_marginBottom="-62dp"
+            android:layout_toRightOf="@+id/btnactualizar"
+            android:background="@drawable/delete_view" />
+
+    </RelativeLayout>
+
+    <EditText
+        android:id="@+id/txtconsultar"
+        android:layout_width="297dp"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Ingrese el nombre del producto"
+        android:inputType="textPersonName" />
+</RelativeLayout>

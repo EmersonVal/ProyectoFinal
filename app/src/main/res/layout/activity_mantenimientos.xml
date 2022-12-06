@@ -1,0 +1,165 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".MANTENIMIENTOS">
+
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="392dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:orientation="horizontal">
+
+        <LinearLayout
+            android:layout_width="190dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/d1"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnproductos"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:background="#edb05b"
+                android:text="PRODUCTOS"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/d3"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btncategorias"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:background="#edb05b"
+                android:text="CATEGORIAS"
+                android:textColor="@android:color/black"
+                android:textSize="22sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/d5"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnmenu"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:background="#eef218"
+                android:text="MENU"
+                android:textColor="@android:color/black"
+                android:textColorLink="@android:color/holo_orange_light"
+                android:textSize="30sp" />
+
+            <View
+                android:id="@+id/d7"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="189dp"
+            android:layout_height="match_parent"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/d2"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnmarcas"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_gravity="center_vertical|center"
+                android:background="#d050c6"
+                android:gravity="center_vertical|center"
+                android:text="marcas"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/d4"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btncliente"
+                android:layout_width="match_parent"
+                android:layout_height="106dp"
+                android:layout_gravity="center_vertical|center"
+                android:background="#d050c6"
+                android:gravity="center_vertical|center"
+                android:text="CLIENTE"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/d6"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnempleados"
+                android:layout_width="0dp"
+                android:layout_height="106dp"
+                android:visibility="invisible"
+                android:layout_gravity="center_vertical|center"
+                android:background="#d050c6"
+                android:gravity="center_vertical|center"
+                android:text="EMPLEADO"
+                android:textColor="@android:color/black"
+                android:textSize="25sp"
+                android:textStyle="italic" />
+
+            <View
+                android:id="@+id/d8"
+                android:layout_width="match_parent"
+                android:layout_height="18dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+    </LinearLayout>
+
+    <ImageView
+        android:id="@+id/imageView4"
+        android:layout_width="204dp"
+        android:layout_height="118dp"
+        android:layout_alignParentTop="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginTop="77dp"
+        android:background="@drawable/configuracion" />
+
+    <TextView
+        android:id="@+id/textView35"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentEnd="true"
+        android:layout_marginStart="91dp"
+        android:layout_marginEnd="92dp"
+        android:text="Mantenimiento"
+        android:textSize="34sp" />
+
+</RelativeLayout>

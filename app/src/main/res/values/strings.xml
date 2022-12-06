@@ -1,0 +1,39 @@
+<resources>
+    <string name="app_name">ProyectoFinal</string>
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+    <string name="nav_header_title">Android Studio</string>
+    <string name="nav_header_subtitle">android.studio@android.com</string>
+    <string name="nav_header_desc">Navigation header</string>
+    <string name="action_settings">Ajustes</string>
+    <string name="title_activity_productos">productos</string>
+    <string name="section_format">Hello World from section: %1$d</string>
+    <string-array name="sexo">
+        <item>Masculino</item>
+        <item>Femenino</item>
+
+    </string-array>
+
+
+    <string-array name="marca">
+        <item>STANLEY</item>
+        <item>PROFY</item>
+        <item>PLIX</item>
+        <item>LINCOLN</item>
+        <item>PATO</item>
+        <item>FREE</item>
+        <item>STORM</item>
+        <item>TEKNO</item>
+        <item>USA</item>
+    </string-array>
+
+    <string-array name="Categoria">
+        <item>HERRAMIENTAS DE UNION</item>
+        <item>FIERROS</item>
+        <item>PINTURAS</item>
+        <item>CABLES</item>
+        <item>HERRAMIENTAS DE SUJECION</item>
+    </string-array>
+
+
+</resources>

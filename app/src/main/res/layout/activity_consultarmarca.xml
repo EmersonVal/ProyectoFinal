@@ -1,0 +1,116 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultarmarca">
+
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="match_parent"
+
+            android:layout_alignParentTop="true"
+            tools:context=".consultaproducto"
+            tools:layout_editor_absoluteX="0dp"
+            tools:layout_editor_absoluteY="0dp">
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="match_parent"
+                android:layout_height="17dp"
+
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="62dp"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="208dp"
+
+                android:layout_alignParentBottom="true"
+
+                android:layout_alignParentStart="true"
+                android:layout_marginBottom="48dp"
+                android:orientation="horizontal">
+
+                <LinearLayout
+                    android:layout_width="match_parent"
+                    android:layout_height="208dp"
+                    android:orientation="vertical">
+
+                    <View
+                        android:id="@+id/divider2"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:background="?android:attr/listDivider" />
+
+                    <TextView
+                        android:id="@+id/txtidmarca"
+                        android:layout_width="match_parent"
+                        android:layout_height="68dp"
+                        android:background="#FFC107"
+                        android:gravity="center"
+                        android:textColor="@android:color/holo_red_dark"
+                        android:textSize="24sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/divider5"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:background="?android:attr/listDivider" />
+
+                    <TextView
+                        android:id="@+id/txtmarca"
+                        android:layout_width="match_parent"
+                        android:layout_height="71dp"
+                        android:background="#FFEB3B"
+                        android:gravity="center"
+                        android:textColor="@android:color/black"
+                        android:textSize="18sp"
+                        android:textStyle="bold" />
+
+                    <View
+                        android:id="@+id/divider6"
+                        android:layout_width="match_parent"
+                        android:layout_height="22dp"
+                        android:background="?android:attr/listDivider" />
+
+                </LinearLayout>
+            </LinearLayout>
+
+            <ImageButton
+                android:id="@+id/btnbuscar"
+                android:layout_width="59dp"
+                android:layout_height="59dp"
+
+                android:layout_alignParentEnd="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginEnd="17dp"
+                android:background="@drawable/buscar" />
+
+            <ImageView
+                android:id="@+id/imageView3"
+                android:layout_width="215dp"
+                android:layout_height="170dp"
+                android:layout_below="@+id/divider"
+                android:layout_centerHorizontal="true"
+                android:layout_marginTop="49dp"
+                android:background="@drawable/marca" />
+
+        </RelativeLayout>
+
+    <EditText
+        android:id="@+id/txtconsultar"
+        android:layout_width="250dp"
+        android:layout_height="wrap_content"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        android:layout_marginStart="39dp"
+        android:layout_marginTop="13dp"
+        android:ems="10"
+        android:hint="Ingrese la marca del producto"
+        android:inputType="textPersonName" />
+    </RelativeLayout>

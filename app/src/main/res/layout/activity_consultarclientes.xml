@@ -1,0 +1,146 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Consultarclientes">
+
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:context=".consultaproducto"
+        tools:layout_editor_absoluteX="0dp"
+        tools:layout_editor_absoluteY="0dp">
+
+        <View
+            android:id="@+id/divider"
+            android:layout_width="match_parent"
+            android:layout_height="17dp"
+
+            android:layout_alignParentTop="true"
+            android:layout_marginTop="62dp"
+            android:background="?android:attr/listDivider" />
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="295dp"
+
+            android:layout_alignParentBottom="true"
+
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="match_parent"
+                android:layout_height="297dp"
+                android:orientation="vertical">
+
+                <TextView
+                    android:id="@+id/txtdni"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#FFC107"
+                    android:gravity="center"
+                    android:textColor="@android:color/holo_red_dark"
+                    android:textSize="20sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider3"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/txtnombre"
+                    android:layout_width="match_parent"
+                    android:layout_height="40dp"
+                    android:background="#FFEB3B"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/txttelefono"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="#FFC107"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider5"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/txtsexo"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="#FFEB3B"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="22dp"
+                    android:background="?android:attr/listDivider" />
+
+                <TextView
+                    android:id="@+id/txtdir"
+                    android:layout_width="match_parent"
+                    android:layout_height="42dp"
+                    android:background="#FFC107"
+                    android:gravity="center"
+                    android:textColor="@android:color/black"
+                    android:textSize="14sp"
+                    android:textStyle="bold" />
+            </LinearLayout>
+        </LinearLayout>
+
+        <ImageButton
+            android:id="@+id/btnbuscar"
+            android:layout_width="59dp"
+            android:layout_height="59dp"
+            android:layout_alignParentEnd="true"
+            android:layout_alignParentTop="true"
+            android:layout_marginEnd="19dp"
+            android:background="@drawable/buscar" />
+
+        <ImageView
+            android:id="@+id/imageView3"
+            android:layout_width="185dp"
+            android:layout_height="143dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginTop="136dp"
+            android:background="@drawable/cliente2" />
+
+        <EditText
+            android:id="@+id/txtconsultar"
+            android:layout_width="200dp"
+            android:layout_height="wrap_content"
+            android:ems="8"
+            android:hint="Ingrese el DUI del cliente."
+            android:inputType="number" />
+
+
+    </RelativeLayout>
+
+</RelativeLayout>

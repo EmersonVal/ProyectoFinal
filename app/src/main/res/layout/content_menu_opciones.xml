@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior"
+    tools:context=".menu_opciones"
+    tools:showIn="@layout/app_bar_menu_opciones">
+
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_marginTop="3dp"
+        tools:context=".menu_opciones">
+
+        <ImageView
+            android:id="@+id/imageView"
+            android:layout_width="348dp"
+            android:layout_height="171dp"
+            android:layout_alignParentTop="true"
+            android:layout_centerHorizontal="true"
+            android:background="@drawable/barillas2" />
+
+        <LinearLayout
+            android:layout_width="280dp"
+            android:layout_height="241dp"
+            android:layout_alignParentBottom="true"
+            android:layout_centerHorizontal="true"
+            android:layout_marginBottom="150dp"
+            android:orientation="vertical">
+
+            <View
+                android:id="@+id/divider10"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnproductos"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="PRODUCTOS"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider7"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btndistribuidores"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CONSULTAS"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider8"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="?android:attr/listDivider" />
+
+            <Button
+                android:id="@+id/btnacercade"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="INFORMACION DE LA FERRETERIA"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <Button
+                android:id="@+id/btncerrarsesion"
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content"
+                android:text="CERRAR SESION"
+                android:textColor="@color/black"
+                android:textStyle="bold" />
+
+            <View
+                android:id="@+id/divider9"
+                android:layout_width="match_parent"
+                android:layout_height="9dp"
+                android:background="?android:attr/listDivider" />
+
+        </LinearLayout>
+
+    </RelativeLayout>
+
+    <TextView
+        android:id="@+id/textView"
+        android:layout_width="264dp"
+        android:layout_height="55dp"
+        android:layout_alignParentBottom="true"
+        android:layout_centerHorizontal="true"
+        android:layout_marginBottom="25dp"
+        android:gravity="center"
+        android:text="Los mejores productos los encuentras aqui"
+        android:textColor="@android:color/holo_red_dark"
+        android:textSize="24sp"
+        android:textStyle="bold"
+        tools:layout_editor_absoluteX="30dp"
+        tools:layout_editor_absoluteY="443dp" />
+</RelativeLayout>

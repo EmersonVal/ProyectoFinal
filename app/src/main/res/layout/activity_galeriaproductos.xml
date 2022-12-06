@@ -1,0 +1,623 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".galeriaproductos">
+
+    <ScrollView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentStart="true"
+        android:layout_alignParentTop="true"
+        tools:layout_editor_absoluteX="8dp"
+        tools:layout_editor_absoluteY="8dp">
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+
+            <LinearLayout
+                android:layout_width="192dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/a1"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/pintura2" />
+
+                <View
+                    android:id="@+id/d1"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a2"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/clavos" />
+
+                <View
+                    android:id="@+id/d2"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a3"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/registraruser" />
+
+                <View
+                    android:id="@+id/d3"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a5"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a4" />
+
+                <View
+                    android:id="@+id/d5"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a6"
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:background="@drawable/a6" />
+
+                <View
+                    android:id="@+id/d6"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a7"
+                    android:layout_width="match_parent"
+                    android:layout_height="118dp"
+                    android:background="@drawable/a7" />
+
+                <View
+                    android:id="@+id/d7"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a8"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a8" />
+
+                <View
+                    android:id="@+id/d8"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a9"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a9" />
+
+                <View
+                    android:id="@+id/d9"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a10"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a10" />
+
+                <View
+                    android:id="@+id/d10"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a11"
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:background="@drawable/a11" />
+
+                <View
+                    android:id="@+id/d11"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a12"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a12" />
+
+                <View
+                    android:id="@+id/d12"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a13"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a13" />
+
+                <View
+                    android:id="@+id/d13"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a16"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a14" />
+
+                <View
+                    android:id="@+id/d16"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a17"
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:background="@drawable/a15" />
+
+                <View
+                    android:id="@+id/d17"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a18"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a16" />
+
+                <View
+                    android:id="@+id/d18"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a19"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a17" />
+
+                <View
+                    android:id="@+id/d19"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a20"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a18" />
+
+                <View
+                    android:id="@+id/d20"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a21"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a19" />
+
+                <View
+                    android:id="@+id/d21"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a22"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a20" />
+
+                <View
+                    android:id="@+id/d22"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a23"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a21" />
+
+                <View
+                    android:id="@+id/d23"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a24"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/registraruser" />
+
+                <View
+                    android:id="@+id/d24"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a25"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a23" />
+
+                <View
+                    android:id="@+id/d25"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a26"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a24" />
+
+                <View
+                    android:id="@+id/d26"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/a27"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a25" />
+
+                <View
+                    android:id="@+id/d27"
+                    android:layout_width="4dp"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+            </LinearLayout>
+
+            <View
+                android:id="@+id/divider"
+                android:layout_width="4dp"
+                android:layout_height="match_parent"
+                android:layout_weight="1"
+                android:background="?android:attr/listDivider" />
+
+            <LinearLayout
+                android:layout_width="192dp"
+                android:layout_height="match_parent"
+                android:orientation="vertical">
+
+
+                <ImageButton
+                    android:id="@+id/button5"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a3" />
+
+                <View
+                    android:id="@+id/divider2"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button39"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a5" />
+
+                <View
+                    android:id="@+id/divider6"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button42"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a26" />
+
+                <View
+                    android:id="@+id/divider4"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button45"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a27" />
+
+                <View
+                    android:id="@+id/divider8"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button46"
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:background="@drawable/a28" />
+
+                <View
+                    android:id="@+id/divider9"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button47"
+                    android:layout_width="match_parent"
+                    android:layout_height="118dp"
+                    android:background="@drawable/a29" />
+
+                <View
+                    android:id="@+id/divider10"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button48"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a30" />
+
+                <View
+                    android:id="@+id/divider11"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button50"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/manguera" />
+
+                <View
+                    android:id="@+id/divider12"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button49"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/registraruser" />
+
+                <View
+                    android:id="@+id/divider13"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button51"
+                    android:layout_width="match_parent"
+                    android:layout_height="121dp"
+                    android:background="@drawable/c2" />
+
+                <View
+                    android:id="@+id/divider14"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button52"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c3" />
+
+                <View
+                    android:id="@+id/divider15"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button53"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c4" />
+
+                <View
+                    android:id="@+id/divider16"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button56"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c5" />
+
+                <View
+                    android:id="@+id/divider17"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button55"
+                    android:layout_width="match_parent"
+                    android:layout_height="119dp"
+                    android:background="@drawable/c66" />
+
+                <View
+                    android:id="@+id/divider18"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button54"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c7" />
+
+                <View
+                    android:id="@+id/divider19"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button2"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c8" />
+
+                <View
+                    android:id="@+id/divider32"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button10"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c9" />
+
+                <View
+                    android:id="@+id/divider33"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button9"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c10" />
+
+                <View
+                    android:id="@+id/divider34"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button7"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c11" />
+
+                <View
+                    android:id="@+id/divider36"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button8"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c12" />
+
+                <View
+                    android:id="@+id/divider35"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button6"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c13" />
+
+                <View
+                    android:id="@+id/divider37"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button4"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c14" />
+
+                <View
+                    android:id="@+id/divider38"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button3"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/c15" />
+
+                <View
+                    android:id="@+id/divider39"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+                <ImageButton
+                    android:id="@+id/button"
+                    android:layout_width="match_parent"
+                    android:layout_height="127dp"
+                    android:background="@drawable/a8" />
+
+                <View
+                    android:id="@+id/divider40"
+                    android:layout_width="match_parent"
+                    android:layout_height="9dp"
+                    android:background="?android:attr/listDivider" />
+
+            </LinearLayout>
+
+
+        </LinearLayout>
+    </ScrollView>
+</RelativeLayout>
